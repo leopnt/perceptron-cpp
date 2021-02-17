@@ -23,7 +23,6 @@ public:
     Perceptron(int const& nbInputs);
     ~Perceptron();
 
-    float getConfidence(float* inputs, int const& nbInputs) const;
     float guess(float* inputs, int const& nbInputs) const;
     void train(float* inputs, int const& nbInputs, float const& answer);
 };
